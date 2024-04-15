@@ -24,5 +24,8 @@ paths:
   /accounts:
     $ref: "./accounts/paths/accounts.yml"
 
+  /accounts/{accountId}:
+    $ref: "./accounts/paths/accounts2.yml"
+
 security:
   - bearerAuth: [ ]
